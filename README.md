@@ -2,6 +2,4 @@
 
 Test
 
-Hello
-
 Pull Test
