@@ -5,14 +5,19 @@
 }
 
 body {
-    background: url(../img/winter-landscape-2571788_1920.jpg)no-repeat center center fixed;
+    background: url(../img/hudson-bay-116476_1920.jpg)no-repeat center center;
     background-size: cover;
+}
+
+ul {
+    list-style: none;
 }
 
 .tool {
     position: relative;
+    float: left;
     width: 450px;
-    margin: 5vh auto;
+    margin: 5vh 5vw;
     box-shadow: 10px 10px 15px -10px #333333;
 }
 
@@ -120,38 +125,134 @@ input {
     color: #fff;
     cursor: pointer;
 }
-/*
 
 .right_wrap {
     height: 730px;
     background: #fff;
-    padding: 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url(../img/hudson-bay-116476_1920.jpg)no-repeat center;
+    background: url(../img/james-donaldson-365418.jpg) no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     color: #fff;
     text-align: center;
 }
+
 .header {
+    height: 10%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 2em;
+    padding: 20px;
     overflow: hidden;
-    font-size: 2em;    
 }
+
 .left_nav_icon {
     float: left;
 }
+
 .right_nav_icon {
     float: right;
 }
+
 .content_wrap {
     height: 100%;
 }
 
 .section1 {
-    
+    height: 40%;
 }
 
-*/
+.section1 h1 {
+    font-weight: normal;
+}
+
+.portrait {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 30px auto;
+    background: url(../img/john-matychuk-333799.jpg)no-repeat center 70%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 50%;
+}
+.portrait:before {
+    position: absolute;
+    display: block;
+    content: "3";
+    right: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #549bed;
+    border-radius: 50%
+}
+.arrow_box {
+    color: #e3e3e3;
+}
+
+.arrow_box div {
+    display: inline-block;
+}
+.arrow_box .text {
+    margin: 0 35%;
+}
+.arrow_box .arrow {
+    font-size: 2em;
+}
+
+.section2 {
+    width: 100%;
+    height: 50%;
+    background: #fff;
+    color: #000;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.calendar {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+
+.calendar ul {
+    font-size: 0;
+}
+
+.calendar ul  li{
+    display: inline-block;
+    width: 14.2%;
+    font-size: 16px;
+}
+.day_number {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.day_number li {
+    position: relative;
+    line-height: 60px;
+}
+.day_number li:nth-child(2) {
+    background: rgba(188, 188, 188, 0.71);
+    border-radius: 50px;
+}
+
+.red_circle:after {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, 0);
+    display: block;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #ff0000;
+    border-radius: 50px;
+
+}
 
