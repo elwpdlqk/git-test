@@ -303,7 +303,7 @@ input {
     background: #FC3768;
     color: #fff;
 }
-.more {
+.more span{
     line-height: 55px;
     font-size: 4em;
 }
