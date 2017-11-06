@@ -302,6 +302,8 @@ input {
     border-radius: 50%;
     background: #FC3768;
     color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #dbdbdb;
 }
 .more span{
     line-height: 55px;
