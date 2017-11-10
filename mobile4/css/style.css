@@ -27,7 +27,7 @@ body {
 .blur {
     position: absolute;
     top: 0;
-    left: 0;    
+    left: 0;
     width: 500px;
     height: 100%;
     background: url(../img/shoe-2313143_1920.jpg) no-repeat center center fixed;
@@ -88,7 +88,7 @@ aside {
     overflow: hidden;
 }
 .aside_wrap {
-    position: relative;        
+    position: relative;
     width: 500px;
     z-index: 10;
 }
