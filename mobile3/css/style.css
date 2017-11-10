@@ -19,5 +19,26 @@ body {
     background: #336AFF;
 }
 .nav {
+    position: relative;
     width: 100%;
+    height: 70px;
+    overflow: hidden;
+}
+
+
+.icon-style {
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+}
+
+.nav__left-icon {
+    left: 10px;
+}
+.nav__center-text {
+    left: 50%;
+    transform: translate(-50%,0)
+}
+.nav__right-icon {
+    right: 10px;
 }
