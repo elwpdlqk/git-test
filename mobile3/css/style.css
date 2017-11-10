@@ -52,5 +52,5 @@ body {
     width: 100%;
 }
 .article-bottom {
-    background-image:linear-gradient(to bottom, red, blue);
+    background-image:linear-gradient(to bottom, #30E5A2, #3081D7);
 }
