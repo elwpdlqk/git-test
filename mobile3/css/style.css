@@ -48,5 +48,9 @@ body {
 /*container start*/
 
 .article-top img{
+    display: block;
     width: 100%;
+}
+.article-bottom {
+    background-image:linear-gradient(to bottom, red, blue);
 }
