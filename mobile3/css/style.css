@@ -57,5 +57,35 @@ body {
 }
 
 .bottom__topbox {
+    position: relative;
     text-align: center;
+    border-bottom: 1px solid #c1fad1;
+}
+
+.bottom__topbox h2 {
+    line-height: 70px;
+    font-weight: normal;
+}
+
+.bottom__topbox p {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.arrows {
+    position: absolute;
+    font-size: 0.9em;
+    color: #c1fad1;
+    top: 20px;
+}
+
+.left-arrow {
+    left: 20px;
+}
+.right-arrow {
+    right: 20px;
 }
