@@ -1,0 +1,23 @@
+@charset 'utf-8';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #336AFF;
+}
+.nav {
+    width: 100%;
+}
