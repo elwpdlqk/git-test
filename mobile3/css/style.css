@@ -46,3 +46,7 @@ body {
 
 /*header end*/
 /*container start*/
+
+.article-top img{
+    width: 100%;
+}
