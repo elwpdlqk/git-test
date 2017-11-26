@@ -66,10 +66,13 @@ body {
 .bottom__topbox h2 {
     line-height: 70px;
     font-weight: normal;
+    font-size: 1.4em;
+    opacity: 0.9;
 }
 
 .bottom__topbox p {
     margin-bottom: 20px;
+    opacity: 0.7;
 }
 
 .arrows {
