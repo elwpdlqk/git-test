@@ -60,7 +60,7 @@ body {
 .bottom__topbox {
     position: relative;
     text-align: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .bottom__topbox h2 {
@@ -101,11 +101,18 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 10px;
-    font-size: 2em;
+    padding: 25px;
+}
+.float p:first-child {
+    font-size: 3em;
 }
 
+
 .float p:last-child {
-    font-size: 0.4em;
+    font-size: 0.8em;
     opacity: 0.5;
+}
+
+.left_box {
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
 }
