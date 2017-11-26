@@ -105,7 +105,7 @@ body {
     font-size: 2em;
 }
 
-.float p:nth-child(2) {
+.float p:last-child {
     font-size: 0.4em;
     opacity: 0.5;
 }
