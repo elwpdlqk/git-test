@@ -117,3 +117,8 @@ body {
 .left_box {
     border-right: 1px solid rgba(255, 255, 255, 0.4);
 }
+
+.footer {
+    overflow: hidden;
+    background: #3085D4;
+}
