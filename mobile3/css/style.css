@@ -123,3 +123,9 @@ body {
     background: #3085D4;
     border-top: 1px solid rgba(255, 255, 255, 0.4);
 }
+.footerbox {
+    width: 33.3333%;
+    line-height: 70px;
+    float: left;
+    text-align: center;
+}
